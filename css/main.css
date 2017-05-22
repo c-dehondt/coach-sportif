@@ -1,8 +1,11 @@
-$('.carousel').carousel()
+body{
+  background-color: #292B2C;
+}
 
 header{
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 p{
@@ -17,7 +20,7 @@ p{
   width:85px;
   height:85px;
 }
-main, section{
+section{
  margin-top:5%;
 }
 

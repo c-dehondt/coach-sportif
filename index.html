@@ -50,9 +50,9 @@
 
 <!-- ***************************************************fin du header**********************************************
 ********************************************************************************************************* -->
-<main class="container">
+<main class="container-fluid">
 
-    <aside class="container ">
+    <aside class="container-fluid">
 
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel"><!-- *****div d1******* -->
         <div class="carousel-inner" role="listbox"><!-- *****div d2******* -->
@@ -62,7 +62,7 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
 
-        <div class="carousel-item active container"><!-- *****div d3******* -->
+        <div class="carousel-item active container-fluid"><!-- *****div d3******* -->
           <!--Card-->
           <div class="card-overlay" style="background-image: url('img/pc/pub.jpg')"> <!-- *****div d4******* -->
           <!--Content-->
@@ -81,7 +81,7 @@
           <!--/.Card-->
         </div><!-- *****div f3******* -->
 
-        <div class="carousel-item container">
+        <div class="carousel-item container-fluid">
           <!--Card2-->
           <div class="card-overlay" style="background-image: url('img/pc/pub1.jpg')">
           <!--Content-->
@@ -127,7 +127,7 @@
       </div>
     </aside>
 
-    <section  class="card card-inverse">
+    <section  class="card card-inverse  hidden-lg-down">
       <img class="card-img" src="img/pc/B11.jpg" alt="Card image">
       <div class="card-img-overlay">
         <h2 class="card-title">VOS Objectif sportif</h2>
@@ -144,6 +144,11 @@
         <div class="modal fade bd-example-modal-lg"  tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg">
             <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
 
 <!-- ******************************************************************12 mois*******************************
 ***************************************************************************************************** -->
@@ -227,8 +232,8 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
-
               </div>
+
               <div class="modal-body info">
                 <form>
                   <div class="form-group">
@@ -252,6 +257,9 @@
       </div>
     </section>
 
+<!--
+***************************************les coachs*****************************************************************
+*************************************************************************************************** -->
 
     <section class="container">
       <h3>Nos coach</h3>
@@ -331,6 +339,11 @@
       <div class="modal fade" id="inscription" tabindex="-1" role="dialog" aria-labelledby="inscription" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
             <div class="modal-body">
             <div class="container">
               <form>
@@ -398,6 +411,10 @@
   </main>
 
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+<!-- ***************************************************************footer********************************
+**************************************************************************************************************** -->
 
   <footer>
       <div class="footer" id="footer">

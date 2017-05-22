@@ -77,7 +77,7 @@
               <li class="list-group-item">Une entrée gratuite à nos évènements de coaching sport en live mensuels</li>
             </ul>
             <div class="card-block">
-              <a href="#" class="card-link btn btn-info">Je M'inscris</a>
+              <button type="button" class="btn btn-info" data-toggle="modal" data-target="#inscription">Je m'inscris</button>
             </div>
           </div>
 
@@ -97,7 +97,7 @@
               <li class="list-group-item">Une entrée gratuite à nos évènements de coaching sport en live mensuels</li>
             </ul>
             <div class="card-block">
-              <a href="#" class="card-link btn btn-info">Je M'inscris</a>
+              <button type="button" class="btn btn-info" data-toggle="modal" data-target="#inscription">Je m'inscris</button>
             </div>
           </div>
 
@@ -117,7 +117,7 @@
               <li class="list-group-item">Une entrée gratuite à nos évènements de coaching sport en live mensuels</li>
             </ul>
             <div class="card-block">
-              <a href="#" class="card-link btn btn-info">Je M'inscris</a>
+              <button type="button" class="btn btn-info" data-toggle="modal" data-target="#inscription">Je m'inscris</button>
             </div>
           </div>
 
@@ -137,10 +137,82 @@
               <li class="list-group-item">Une entrée gratuite à nos évènements de coaching sport en live mensuels</li>
             </ul>
             <div class="card-block">
-              <a href="#" class="card-link btn btn-info">Je M'inscris</a>
+              <button type="button" class="btn btn-info" data-toggle="modal" data-target="#inscription">Je m'inscris</button>
             </div>
           </div>
         </div>
+<!-- *************************************************************Inscription*********************************
+******************************************************************************************************* -->
+      <div class="modal fade" id="inscription" tabindex="-1" role="dialog" aria-labelledby="inscription" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            <div class="container">
+              <form>
+              <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              </div>
+              </div>
+              <div class="form-group row">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Mon mot de passe</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+              </div>
+              </div>
+              <fieldset class="form-group row">
+              <legend class="col-form-legend">Abonnement</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    Abonnement 12 mois
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    Abonnement 6 mois
+                  </label>
+                </div>
+                <div class="form-check disabled">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" checked>
+                    Abonnement 3 mois
+                  </label>
+                </div>
+                <div class="form-check disabled">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" checked>
+                    Abonnement 1 mois
+                  </label>
+                </div>
+              </div>
+              </fieldset>
+              <div class="form-group row">
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> je valide
+                  </label>
+                </div>
+              </div>
+              </div>
+              <div class="form-group row">
+              <div class="offset-sm-2 col-sm-10">
+                <button type="submit" class="btn btn-primary">je m'abonne</button>
+              </div>
+              </div>
+              </form>
+              </div>
+
+            </div>
     </section>
   </main>
 
