@@ -8,6 +8,10 @@ header{
   z-index: 1;
 }
 
+#contact{
+  color:white;
+}
+
 p{
   text-align: center;
 }
@@ -49,6 +53,11 @@ h4{
 	clear: both;
 	display: block;
 }
+
+footer{
+  margin-top: 25px;
+}
+
 .footer {
 	background: #EDEFF1;
 	height: auto;
